@@ -55,7 +55,7 @@ export default {
     padding: 1.5rem 0;
 
     & > li > a.sidebar-link {
-      font-size: 0.8em;
+      font-size: 1.1em;
       line-height: 1.7;
       font-weight: bold;
     }

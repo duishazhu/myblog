@@ -2,7 +2,7 @@ module.exports = {
   title: '李浩前端进阶',
   description: '种一棵树最好的时间是十年前,其次就是现在',
   themeConfig: {
-    base: '/',
+    base: '/duishazhu/',
     repoLabel: 'github',
     docsDir: 'docs',
     lastUpdated: true, // 最后更新时间
@@ -19,7 +19,7 @@ module.exports = {
           },
           {
             text: 'GitHub',
-            link: 'https://github.com/HUYIJUNCODING'
+            link: 'https://github.com/duishazhu'
           }
         ]
       }
