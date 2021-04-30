@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.gif
 actionText: 开始阅读 →
-actionLink: /blog/javaScript/one.html
+actionLink: /blog/javaScript/1.1.html
 features:
 - title: A Blog
   details: 专注写前端博客，记录日常所得

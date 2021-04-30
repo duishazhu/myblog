@@ -2,6 +2,7 @@ module.exports = {
   title: '李浩前端进阶',
   description: '种一棵树最好的时间是十年前,其次就是现在',
   themeConfig: {
+    base: '/',
     repoLabel: 'github',
     docsDir: 'docs',
     lastUpdated: true, // 最后更新时间
@@ -14,11 +15,7 @@ module.exports = {
         nav: [
           {
             text: 'Blog',
-            link: '/blog/javaScript/one'
-          },
-          {
-            text: 'Space',
-            link: '/space/poetryAndDistance/one'
+            link: '/blog/javaScript/1.1'
           },
           {
             text: 'GitHub',
@@ -30,37 +27,33 @@ module.exports = {
     sidebar: {
       '/blog/': [
         {
-          title: '前端daily',
+          title: '第一章 Javascript： 日常tips',
           collapsable: true,
           children: [
-            ['/blog/javaScript/one', 'one'],
-            ['/blog/javaScript/two', 'two']
+            ['/blog/JavaScript/1.1', 'if...else...多重条件判断优化']
           ]
         },
         {
-          title: '框架相关',
-          collapsable: true,
-          children: [['/blog/framework/vuepressBlog', 'vue']]
-        },
-        {
-          title: '工具收藏',
+          title: '第二章 你好 TypeScript： 进入类型的世界',
           collapsable: true,
           children: [
-            ['/blog/tools/one', 'one'],
-            ['/blog/tools/two', 'two']
+            ['/blog/TypeScript/2.1', '安装 Typescript'],
+            ['/blog/TypeScript/2.2', '原始数据类型'],
+            ['/blog/TypeScript/2.3', 'Array 和 Tuple'],
+            ['/blog/TypeScript/2.4', 'interface 接口'],
+            ['/blog/TypeScript/2.5', '函数'],
+            ['/blog/TypeScript/2.6', '类型推论，联合类型 和 类型断言'],
+            ['/blog/TypeScript/2.7', 'Class 类'],
+            ['/blog/TypeScript/2.8', '类与接口'],
+            ['/blog/TypeScript/2.9', '枚举 Enums'],
+            ['/blog/TypeScript/2.10', '泛型 Generics'],
+            ['/blog/TypeScript/2.11', '内置对象']
           ]
-        }
-      ],
-      '/space/': [
-        {
-          title: '诗和远方',
-          collapsable: true,
-          children: [['/space/poetryAndDistance/one', 'one']]
         },
         {
-          title: '谝闲传',
+          title: '正在努力写作中...',
           collapsable: true,
-          children: [['/space/talk/one', 'one']]
+          children: []
         }
       ]
     },
