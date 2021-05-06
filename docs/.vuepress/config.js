@@ -18,6 +18,10 @@ module.exports = {
             link: '/blog/javaScript/1.1'
           },
           {
+            text: '面试题',
+            link: '/question/1.1'
+          },
+          {
             text: 'GitHub',
             link: 'https://github.com/duishazhu'
           }
@@ -54,6 +58,15 @@ module.exports = {
           title: '正在努力写作中...',
           collapsable: true,
           children: []
+        }
+      ],
+      '/question/': [
+        {
+          title: '每日一题',
+          collapsable: true,
+          children: [
+            ['/question/1.1', '1、==操作符']
+          ]
         }
       ]
     },
