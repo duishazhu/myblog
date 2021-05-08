@@ -34,7 +34,8 @@ module.exports = {
           title: '第一章 Javascript： 日常tips',
           collapsable: true,
           children: [
-            ['/blog/JavaScript/1.1', 'if...else...多重条件判断优化']
+            ['/blog/JavaScript/1.1', 'if...else...多重条件判断优化'],
+            ['/blog/JavaScript/1.2', '获取一个数字在数字数组内的那个区间']
           ]
         },
         {
